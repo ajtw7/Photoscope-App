@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+body {
+    padding: 3px;
+}
+
+#photo-divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin: 10px;
+}
+
+.photoDiv {
+    width: 25%;
+    height: auto;
+    padding: 5px 0;
+}
